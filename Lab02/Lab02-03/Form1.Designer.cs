@@ -92,7 +92,7 @@
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnConfirm);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Lab02-03 - Bán vé rạp chiếu phim - Cù Thanh Cầm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();

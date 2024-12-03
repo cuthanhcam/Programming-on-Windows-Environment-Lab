@@ -30,6 +30,14 @@
         {
             this.lblStudentInformationManagement = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnInsertUpdate = new System.Windows.Forms.Button();
+            this.cmbFaculty = new System.Windows.Forms.ComboBox();
+            this.optFemale = new System.Windows.Forms.RadioButton();
+            this.optMale = new System.Windows.Forms.RadioButton();
+            this.txtAverageScore = new System.Windows.Forms.TextBox();
+            this.txtFullName = new System.Windows.Forms.TextBox();
+            this.txtStudentID = new System.Windows.Forms.TextBox();
             this.lblFaculty = new System.Windows.Forms.Label();
             this.lblAverageScore = new System.Windows.Forms.Label();
             this.lblGender = new System.Windows.Forms.Label();
@@ -37,22 +45,14 @@
             this.lblStudentID = new System.Windows.Forms.Label();
             this.lblTotalMale = new System.Windows.Forms.Label();
             this.lblTotalFemale = new System.Windows.Forms.Label();
-            this.txtStudentID = new System.Windows.Forms.TextBox();
-            this.txtFullName = new System.Windows.Forms.TextBox();
-            this.txtAverageScore = new System.Windows.Forms.TextBox();
-            this.optMale = new System.Windows.Forms.RadioButton();
-            this.optFemale = new System.Windows.Forms.RadioButton();
-            this.cmbFaculty = new System.Windows.Forms.ComboBox();
-            this.btnInsertUpdate = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
             this.dgvStudent = new System.Windows.Forms.DataGridView();
-            this.txtTotalMale = new System.Windows.Forms.TextBox();
-            this.txtTotalFemale = new System.Windows.Forms.TextBox();
             this.StudentID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FullName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Gender = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AverageScore = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Faculty = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtTotalMale = new System.Windows.Forms.TextBox();
+            this.txtTotalFemale = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudent)).BeginInit();
             this.SuspendLayout();
@@ -88,6 +88,77 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông Tin Sinh Viên";
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Location = new System.Drawing.Point(272, 253);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnDelete.TabIndex = 12;
+            this.btnDelete.Text = "Xóa";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // btnInsertUpdate
+            // 
+            this.btnInsertUpdate.Location = new System.Drawing.Point(138, 253);
+            this.btnInsertUpdate.Name = "btnInsertUpdate";
+            this.btnInsertUpdate.Size = new System.Drawing.Size(98, 23);
+            this.btnInsertUpdate.TabIndex = 11;
+            this.btnInsertUpdate.Text = "Thêm/Sửa";
+            this.btnInsertUpdate.UseVisualStyleBackColor = true;
+            this.btnInsertUpdate.Click += new System.EventHandler(this.btnInsertUpdate_Click);
+            // 
+            // cmbFaculty
+            // 
+            this.cmbFaculty.FormattingEnabled = true;
+            this.cmbFaculty.Location = new System.Drawing.Point(138, 206);
+            this.cmbFaculty.Name = "cmbFaculty";
+            this.cmbFaculty.Size = new System.Drawing.Size(209, 24);
+            this.cmbFaculty.TabIndex = 10;
+            // 
+            // optFemale
+            // 
+            this.optFemale.AutoSize = true;
+            this.optFemale.Location = new System.Drawing.Point(225, 118);
+            this.optFemale.Name = "optFemale";
+            this.optFemale.Size = new System.Drawing.Size(45, 20);
+            this.optFemale.TabIndex = 9;
+            this.optFemale.TabStop = true;
+            this.optFemale.Text = "Nữ";
+            this.optFemale.UseVisualStyleBackColor = true;
+            // 
+            // optMale
+            // 
+            this.optMale.AutoSize = true;
+            this.optMale.Location = new System.Drawing.Point(138, 120);
+            this.optMale.Name = "optMale";
+            this.optMale.Size = new System.Drawing.Size(57, 20);
+            this.optMale.TabIndex = 8;
+            this.optMale.TabStop = true;
+            this.optMale.Text = "Nam";
+            this.optMale.UseVisualStyleBackColor = true;
+            // 
+            // txtAverageScore
+            // 
+            this.txtAverageScore.Location = new System.Drawing.Point(138, 162);
+            this.txtAverageScore.Name = "txtAverageScore";
+            this.txtAverageScore.Size = new System.Drawing.Size(209, 22);
+            this.txtAverageScore.TabIndex = 7;
+            // 
+            // txtFullName
+            // 
+            this.txtFullName.Location = new System.Drawing.Point(138, 81);
+            this.txtFullName.Name = "txtFullName";
+            this.txtFullName.Size = new System.Drawing.Size(209, 22);
+            this.txtFullName.TabIndex = 6;
+            // 
+            // txtStudentID
+            // 
+            this.txtStudentID.Location = new System.Drawing.Point(138, 41);
+            this.txtStudentID.Name = "txtStudentID";
+            this.txtStudentID.Size = new System.Drawing.Size(209, 22);
+            this.txtStudentID.TabIndex = 5;
             // 
             // lblFaculty
             // 
@@ -152,77 +223,6 @@
             this.lblTotalFemale.TabIndex = 3;
             this.lblTotalFemale.Text = "Tổng SV Nữ";
             // 
-            // txtStudentID
-            // 
-            this.txtStudentID.Location = new System.Drawing.Point(138, 41);
-            this.txtStudentID.Name = "txtStudentID";
-            this.txtStudentID.Size = new System.Drawing.Size(209, 22);
-            this.txtStudentID.TabIndex = 5;
-            // 
-            // txtFullName
-            // 
-            this.txtFullName.Location = new System.Drawing.Point(138, 81);
-            this.txtFullName.Name = "txtFullName";
-            this.txtFullName.Size = new System.Drawing.Size(209, 22);
-            this.txtFullName.TabIndex = 6;
-            // 
-            // txtAverageScore
-            // 
-            this.txtAverageScore.Location = new System.Drawing.Point(138, 162);
-            this.txtAverageScore.Name = "txtAverageScore";
-            this.txtAverageScore.Size = new System.Drawing.Size(209, 22);
-            this.txtAverageScore.TabIndex = 7;
-            // 
-            // optMale
-            // 
-            this.optMale.AutoSize = true;
-            this.optMale.Location = new System.Drawing.Point(138, 120);
-            this.optMale.Name = "optMale";
-            this.optMale.Size = new System.Drawing.Size(57, 20);
-            this.optMale.TabIndex = 8;
-            this.optMale.TabStop = true;
-            this.optMale.Text = "Nam";
-            this.optMale.UseVisualStyleBackColor = true;
-            // 
-            // optFemale
-            // 
-            this.optFemale.AutoSize = true;
-            this.optFemale.Location = new System.Drawing.Point(225, 118);
-            this.optFemale.Name = "optFemale";
-            this.optFemale.Size = new System.Drawing.Size(45, 20);
-            this.optFemale.TabIndex = 9;
-            this.optFemale.TabStop = true;
-            this.optFemale.Text = "Nữ";
-            this.optFemale.UseVisualStyleBackColor = true;
-            // 
-            // cmbFaculty
-            // 
-            this.cmbFaculty.FormattingEnabled = true;
-            this.cmbFaculty.Location = new System.Drawing.Point(138, 206);
-            this.cmbFaculty.Name = "cmbFaculty";
-            this.cmbFaculty.Size = new System.Drawing.Size(209, 24);
-            this.cmbFaculty.TabIndex = 10;
-            // 
-            // btnInsertUpdate
-            // 
-            this.btnInsertUpdate.Location = new System.Drawing.Point(138, 253);
-            this.btnInsertUpdate.Name = "btnInsertUpdate";
-            this.btnInsertUpdate.Size = new System.Drawing.Size(98, 23);
-            this.btnInsertUpdate.TabIndex = 11;
-            this.btnInsertUpdate.Text = "Thêm/Sửa";
-            this.btnInsertUpdate.UseVisualStyleBackColor = true;
-            this.btnInsertUpdate.Click += new System.EventHandler(this.btnInsertUpdate_Click);
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.Location = new System.Drawing.Point(272, 253);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 23);
-            this.btnDelete.TabIndex = 12;
-            this.btnDelete.Text = "Xóa";
-            this.btnDelete.UseVisualStyleBackColor = true;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
-            // 
             // dgvStudent
             // 
             this.dgvStudent.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -240,6 +240,41 @@
             this.dgvStudent.TabIndex = 4;
             this.dgvStudent.SelectionChanged += new System.EventHandler(this.dgvStudent_SelectionChanged);
             // 
+            // StudentID
+            // 
+            this.StudentID.HeaderText = "MSSV";
+            this.StudentID.MinimumWidth = 6;
+            this.StudentID.Name = "StudentID";
+            this.StudentID.Width = 125;
+            // 
+            // FullName
+            // 
+            this.FullName.HeaderText = "Họ Tên";
+            this.FullName.MinimumWidth = 6;
+            this.FullName.Name = "FullName";
+            this.FullName.Width = 150;
+            // 
+            // Gender
+            // 
+            this.Gender.HeaderText = "Giới tính";
+            this.Gender.MinimumWidth = 6;
+            this.Gender.Name = "Gender";
+            this.Gender.Width = 125;
+            // 
+            // AverageScore
+            // 
+            this.AverageScore.HeaderText = "Điểm trung bình";
+            this.AverageScore.MinimumWidth = 6;
+            this.AverageScore.Name = "AverageScore";
+            this.AverageScore.Width = 125;
+            // 
+            // Faculty
+            // 
+            this.Faculty.HeaderText = "Khoa";
+            this.Faculty.MinimumWidth = 6;
+            this.Faculty.Name = "Faculty";
+            this.Faculty.Width = 125;
+            // 
             // txtTotalMale
             // 
             this.txtTotalMale.Location = new System.Drawing.Point(769, 418);
@@ -254,37 +289,6 @@
             this.txtTotalFemale.Size = new System.Drawing.Size(79, 22);
             this.txtTotalFemale.TabIndex = 6;
             // 
-            // StudentID
-            // 
-            this.StudentID.HeaderText = "MSSV";
-            this.StudentID.MinimumWidth = 6;
-            this.StudentID.Name = "StudentID";
-            // 
-            // FullName
-            // 
-            this.FullName.HeaderText = "Họ Tên";
-            this.FullName.MinimumWidth = 6;
-            this.FullName.Name = "FullName";
-            this.FullName.Width = 150;
-            // 
-            // Gender
-            // 
-            this.Gender.HeaderText = "Giới tính";
-            this.Gender.MinimumWidth = 6;
-            this.Gender.Name = "Gender";
-            // 
-            // AverageScore
-            // 
-            this.AverageScore.HeaderText = "Điểm trung bình";
-            this.AverageScore.MinimumWidth = 6;
-            this.AverageScore.Name = "AverageScore";
-            // 
-            // Faculty
-            // 
-            this.Faculty.HeaderText = "Khoa";
-            this.Faculty.MinimumWidth = 6;
-            this.Faculty.Name = "Faculty";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -298,7 +302,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lblStudentInformationManagement);
             this.Name = "Form1";
-            this.Text = "Lab02-02 - Quản Lý Thông Tin Sinh Viên";
+            this.Text = "Lab02-02 - Quản Lý Thông Tin Sinh Viên - Cù Thanh Cầm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);

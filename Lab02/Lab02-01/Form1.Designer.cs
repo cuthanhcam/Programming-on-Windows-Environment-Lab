@@ -148,7 +148,7 @@
             this.Controls.Add(this.lblNumber2);
             this.Controls.Add(this.lblNumber1);
             this.Name = "Form1";
-            this.Text = "Lab02-01 - Addition, Subtraction, Multiplication, Division";
+            this.Text = "Lab02-01 - Cù Thanh Cầm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();

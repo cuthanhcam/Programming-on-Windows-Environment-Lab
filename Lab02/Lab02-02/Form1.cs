@@ -1,4 +1,6 @@
-﻿using System;
+﻿// 2280600285 - Cu Thanh Cam - https://github.com/cuthanhcam
+
+using System;
 using System.Linq;
 using System.Windows.Forms;
 
