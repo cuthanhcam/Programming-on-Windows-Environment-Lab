@@ -46,13 +46,13 @@
             this.lblTotalMale = new System.Windows.Forms.Label();
             this.lblTotalFemale = new System.Windows.Forms.Label();
             this.dgvStudent = new System.Windows.Forms.DataGridView();
+            this.txtTotalMale = new System.Windows.Forms.TextBox();
+            this.txtTotalFemale = new System.Windows.Forms.TextBox();
             this.StudentID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FullName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Gender = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AverageScore = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Faculty = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtTotalMale = new System.Windows.Forms.TextBox();
-            this.txtTotalFemale = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudent)).BeginInit();
             this.SuspendLayout();
@@ -240,41 +240,6 @@
             this.dgvStudent.TabIndex = 4;
             this.dgvStudent.SelectionChanged += new System.EventHandler(this.dgvStudent_SelectionChanged);
             // 
-            // StudentID
-            // 
-            this.StudentID.HeaderText = "MSSV";
-            this.StudentID.MinimumWidth = 6;
-            this.StudentID.Name = "StudentID";
-            this.StudentID.Width = 125;
-            // 
-            // FullName
-            // 
-            this.FullName.HeaderText = "Họ Tên";
-            this.FullName.MinimumWidth = 6;
-            this.FullName.Name = "FullName";
-            this.FullName.Width = 150;
-            // 
-            // Gender
-            // 
-            this.Gender.HeaderText = "Giới tính";
-            this.Gender.MinimumWidth = 6;
-            this.Gender.Name = "Gender";
-            this.Gender.Width = 125;
-            // 
-            // AverageScore
-            // 
-            this.AverageScore.HeaderText = "Điểm trung bình";
-            this.AverageScore.MinimumWidth = 6;
-            this.AverageScore.Name = "AverageScore";
-            this.AverageScore.Width = 125;
-            // 
-            // Faculty
-            // 
-            this.Faculty.HeaderText = "Khoa";
-            this.Faculty.MinimumWidth = 6;
-            this.Faculty.Name = "Faculty";
-            this.Faculty.Width = 125;
-            // 
             // txtTotalMale
             // 
             this.txtTotalMale.Location = new System.Drawing.Point(769, 418);
@@ -288,6 +253,37 @@
             this.txtTotalFemale.Name = "txtTotalFemale";
             this.txtTotalFemale.Size = new System.Drawing.Size(79, 22);
             this.txtTotalFemale.TabIndex = 6;
+            // 
+            // StudentID
+            // 
+            this.StudentID.HeaderText = "MSSV";
+            this.StudentID.MinimumWidth = 6;
+            this.StudentID.Name = "StudentID";
+            // 
+            // FullName
+            // 
+            this.FullName.HeaderText = "Họ Tên";
+            this.FullName.MinimumWidth = 6;
+            this.FullName.Name = "FullName";
+            this.FullName.Width = 150;
+            // 
+            // Gender
+            // 
+            this.Gender.HeaderText = "Giới tính";
+            this.Gender.MinimumWidth = 6;
+            this.Gender.Name = "Gender";
+            // 
+            // AverageScore
+            // 
+            this.AverageScore.HeaderText = "Điểm trung bình";
+            this.AverageScore.MinimumWidth = 6;
+            this.AverageScore.Name = "AverageScore";
+            // 
+            // Faculty
+            // 
+            this.Faculty.HeaderText = "Khoa";
+            this.Faculty.MinimumWidth = 6;
+            this.Faculty.Name = "Faculty";
             // 
             // Form1
             // 
