@@ -34,6 +34,7 @@
             this.btnMul = new System.Windows.Forms.Button();
             this.btnDiv = new System.Windows.Forms.Button();
             this.btnEqual = new System.Windows.Forms.Button();
+            this.btnReset = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtInput
@@ -96,11 +97,22 @@
             this.btnEqual.UseVisualStyleBackColor = true;
             this.btnEqual.Click += new System.EventHandler(this.btnEqual_Click);
             // 
+            // btnReset
+            // 
+            this.btnReset.Location = new System.Drawing.Point(590, 75);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(75, 52);
+            this.btnReset.TabIndex = 6;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(651, 334);
+            this.ClientSize = new System.Drawing.Size(729, 334);
+            this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnEqual);
             this.Controls.Add(this.btnDiv);
             this.Controls.Add(this.btnMul);
@@ -123,6 +135,7 @@
         private System.Windows.Forms.Button btnMul;
         private System.Windows.Forms.Button btnDiv;
         private System.Windows.Forms.Button btnEqual;
+        private System.Windows.Forms.Button btnReset;
     }
 }
 

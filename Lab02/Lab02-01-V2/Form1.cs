@@ -131,5 +131,16 @@ namespace Lab02_01_V2
                 e.Cancel = true;
             }
         }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            DialogResult res = MessageBox.Show("Bạn có chắc chắn muốn reset máy tính?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+            if (res == DialogResult.Yes)
+            {
+                operations.Clear();
+                txtInput.Clear();
+            }
+        }
     }
 }
