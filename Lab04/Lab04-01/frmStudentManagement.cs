@@ -12,14 +12,14 @@ using System.Data.Entity;
 
 namespace Lab04_01
 {
-    public partial class Form1 : Form
+    public partial class frmStudentManagement : Form
     {
-        public Form1()
+        public frmStudentManagement()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void frmStudentMangement_Load(object sender, EventArgs e)
         {
             try
             {
@@ -239,6 +239,35 @@ namespace Lab04_01
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void facultyManagementToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmFacultyManagement facultyForm = new frmFacultyManagement();
+            facultyForm.ShowDialog();
+        }
+
+        private void toolStripButtonFacultyManagement_Click(object sender, EventArgs e)
+        {
+            frmFacultyManagement facultyForm = new frmFacultyManagement();
+            facultyForm.ShowDialog();
+        }
+
+        private void searchToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSearch searchForm = new frmSearch();
+            searchForm.ShowDialog();
+        }
+
+        private void toolStripButtonSearch_Click(object sender, EventArgs e)
+        {
+            frmSearch searchForm = new frmSearch();
+            searchForm.ShowDialog();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

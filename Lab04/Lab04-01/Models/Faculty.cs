@@ -22,6 +22,8 @@ namespace Lab04_01.Models
         [StringLength(200)]
         public string FacultyName { get; set; }
 
+        public int? TotalProfessor { get; set; }
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Student> Students { get; set; }
     }
