@@ -1,0 +1,7 @@
+M:\LearnCSharp\Lab01-01\Lab01-01\bin\Debug\Lab01-01.exe.config
+M:\LearnCSharp\Lab01-01\Lab01-01\bin\Debug\Lab01-01.exe
+M:\LearnCSharp\Lab01-01\Lab01-01\bin\Debug\Lab01-01.pdb
+M:\LearnCSharp\Lab01-01\Lab01-01\obj\Debug\Lab01-01.csproj.AssemblyReference.cache
+M:\LearnCSharp\Lab01-01\Lab01-01\obj\Debug\Lab01-01.csproj.CoreCompileInputs.cache
+M:\LearnCSharp\Lab01-01\Lab01-01\obj\Debug\Lab01-01.exe
+M:\LearnCSharp\Lab01-01\Lab01-01\obj\Debug\Lab01-01.pdb

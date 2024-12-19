@@ -1,0 +1,14 @@
+M:\LearnCSharp\Lab01-01\Lab01-03\obj\Debug\Lab01-03.csproj.AssemblyReference.cache
+M:\LearnCSharp\Lab01-01\Lab01-03\obj\Debug\Lab01-03.csproj.CoreCompileInputs.cache
+M:\LearnCSharp\Lab01-01\Lab01-03\bin\Debug\Lab01-03.exe.config
+M:\LearnCSharp\Lab01-01\Lab01-03\bin\Debug\Lab01-03.exe
+M:\LearnCSharp\Lab01-01\Lab01-03\bin\Debug\Lab01-03.pdb
+M:\LearnCSharp\Lab01-01\Lab01-03\obj\Debug\Lab01-03.exe
+M:\LearnCSharp\Lab01-01\Lab01-03\obj\Debug\Lab01-03.pdb
+M:\LearnCSharp\Lab01\Lab01-03\bin\Debug\Lab01-03.exe.config
+M:\LearnCSharp\Lab01\Lab01-03\bin\Debug\Lab01-03.exe
+M:\LearnCSharp\Lab01\Lab01-03\bin\Debug\Lab01-03.pdb
+M:\LearnCSharp\Lab01\Lab01-03\obj\Debug\Lab01-03.csproj.AssemblyReference.cache
+M:\LearnCSharp\Lab01\Lab01-03\obj\Debug\Lab01-03.csproj.CoreCompileInputs.cache
+M:\LearnCSharp\Lab01\Lab01-03\obj\Debug\Lab01-03.exe
+M:\LearnCSharp\Lab01\Lab01-03\obj\Debug\Lab01-03.pdb

@@ -1,0 +1,10 @@
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab02\Lab02-01\bin\Debug\Lab02-01.exe.config
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab02\Lab02-01\bin\Debug\Lab02-01.exe
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab02\Lab02-01\bin\Debug\Lab02-01.pdb
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab02\Lab02-01\obj\Debug\Lab02-01.csproj.AssemblyReference.cache
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab02\Lab02-01\obj\Debug\Lab02_01.Form1.resources
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab02\Lab02-01\obj\Debug\Lab02_01.Properties.Resources.resources
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab02\Lab02-01\obj\Debug\Lab02-01.csproj.GenerateResource.cache
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab02\Lab02-01\obj\Debug\Lab02-01.csproj.CoreCompileInputs.cache
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab02\Lab02-01\obj\Debug\Lab02-01.exe
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab02\Lab02-01\obj\Debug\Lab02-01.pdb
