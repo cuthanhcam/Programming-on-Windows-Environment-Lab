@@ -37,12 +37,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
-            this.dataGridViewSearchResults = new System.Windows.Forms.DataGridView();
+            this.dataGridViewSearchResult = new System.Windows.Forms.DataGridView();
             this.txtSearchResult = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.btnCancel = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSearchResults)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSearchResult)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -129,15 +129,15 @@
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
-            // dataGridViewSearchResults
+            // dataGridViewSearchResult
             // 
-            this.dataGridViewSearchResults.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewSearchResults.Location = new System.Drawing.Point(12, 233);
-            this.dataGridViewSearchResults.Name = "dataGridViewSearchResults";
-            this.dataGridViewSearchResults.RowHeadersWidth = 51;
-            this.dataGridViewSearchResults.RowTemplate.Height = 24;
-            this.dataGridViewSearchResults.Size = new System.Drawing.Size(776, 182);
-            this.dataGridViewSearchResults.TabIndex = 1;
+            this.dataGridViewSearchResult.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewSearchResult.Location = new System.Drawing.Point(12, 233);
+            this.dataGridViewSearchResult.Name = "dataGridViewSearchResult";
+            this.dataGridViewSearchResult.RowHeadersWidth = 51;
+            this.dataGridViewSearchResult.RowTemplate.Height = 24;
+            this.dataGridViewSearchResult.Size = new System.Drawing.Size(776, 182);
+            this.dataGridViewSearchResult.TabIndex = 1;
             // 
             // txtSearchResult
             // 
@@ -175,14 +175,14 @@
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtSearchResult);
-            this.Controls.Add(this.dataGridViewSearchResults);
+            this.Controls.Add(this.dataGridViewSearchResult);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmSearch";
             this.Text = "frmSearch";
             this.Load += new System.EventHandler(this.frmSearch_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSearchResults)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSearchResult)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -199,7 +199,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Button btnDelete;
-        private System.Windows.Forms.DataGridView dataGridViewSearchResults;
+        private System.Windows.Forms.DataGridView dataGridViewSearchResult;
         private System.Windows.Forms.TextBox txtSearchResult;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnCancel;

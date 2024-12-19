@@ -216,7 +216,8 @@
             // 
             this.facultyManagementToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("facultyManagementToolStripMenuItem.Image")));
             this.facultyManagementToolStripMenuItem.Name = "facultyManagementToolStripMenuItem";
-            this.facultyManagementToolStripMenuItem.Size = new System.Drawing.Size(229, 26);
+            this.facultyManagementToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2;
+            this.facultyManagementToolStripMenuItem.Size = new System.Drawing.Size(253, 26);
             this.facultyManagementToolStripMenuItem.Text = "Faculty Management";
             this.facultyManagementToolStripMenuItem.Click += new System.EventHandler(this.facultyManagementToolStripMenuItem_Click);
             // 
@@ -224,14 +225,15 @@
             // 
             this.searchToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("searchToolStripMenuItem.Image")));
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
-            this.searchToolStripMenuItem.Size = new System.Drawing.Size(229, 26);
+            this.searchToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
+            this.searchToolStripMenuItem.Size = new System.Drawing.Size(253, 26);
             this.searchToolStripMenuItem.Text = "Search";
             this.searchToolStripMenuItem.Click += new System.EventHandler(this.searchToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(229, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(253, 26);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
