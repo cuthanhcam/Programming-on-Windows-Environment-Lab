@@ -1,0 +1,15 @@
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab04\Lab04-04\bin\Debug\Lab04-04.exe.config
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab04\Lab04-04\bin\Debug\Lab04-04.exe
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab04\Lab04-04\bin\Debug\Lab04-04.pdb
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab04\Lab04-04\bin\Debug\EntityFramework.dll
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab04\Lab04-04\bin\Debug\EntityFramework.SqlServer.dll
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab04\Lab04-04\bin\Debug\EntityFramework.xml
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab04\Lab04-04\bin\Debug\EntityFramework.SqlServer.xml
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab04\Lab04-04\obj\Debug\Lab04-04.csproj.AssemblyReference.cache
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab04\Lab04-04\obj\Debug\Lab04_04.frmProductOrder.resources
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab04\Lab04-04\obj\Debug\Lab04_04.Properties.Resources.resources
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab04\Lab04-04\obj\Debug\Lab04-04.csproj.GenerateResource.cache
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab04\Lab04-04\obj\Debug\Lab04-04.csproj.CoreCompileInputs.cache
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab04\Lab04-04\obj\Debug\Lab04-04.csproj.Up2Date
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab04\Lab04-04\obj\Debug\Lab04-04.exe
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab04\Lab04-04\obj\Debug\Lab04-04.pdb
