@@ -18,80 +18,24 @@ namespace Lab04_04
         {
             InitializeComponent();
         }
-        private void ConfigureDataGridView()
-        {
-            // Đặt chế độ không tự động tạo cột
-            dataGridViewProductOrder.AutoGenerateColumns = false;
-            dataGridViewProductOrder.Columns.Clear();
-
-            // Thêm cột Index
-            var indexColumn = new DataGridViewTextBoxColumn
-            {
-                Name = "Index",
-                HeaderText = "Index",
-                Width = 50,
-                ReadOnly = true
-            };
-            dataGridViewProductOrder.Columns.Add(indexColumn);
-
-            // Thêm cột Invoice Number
-            var invoiceNumberColumn = new DataGridViewTextBoxColumn
-            {
-                Name = "InvoiceNumber",
-                HeaderText = "Invoice Number",
-                Width = 150,
-                ReadOnly = true
-            };
-            dataGridViewProductOrder.Columns.Add(invoiceNumberColumn);
-
-            // Thêm cột Date Order
-            var dateOrderColumn = new DataGridViewTextBoxColumn
-            {
-                Name = "DateOrder",
-                HeaderText = "Date Order",
-                Width = 150,
-                ReadOnly = true
-            };
-            dataGridViewProductOrder.Columns.Add(dateOrderColumn);
-
-            // Thêm cột Date Received
-            var dateReceivedColumn = new DataGridViewTextBoxColumn
-            {
-                Name = "DateReceived",
-                HeaderText = "Date Received",
-                Width = 150,
-                ReadOnly = true
-            };
-            dataGridViewProductOrder.Columns.Add(dateReceivedColumn);
-
-            // Thêm cột Total Amount
-            var totalAmountColumn = new DataGridViewTextBoxColumn
-            {
-                Name = "TotalAmount",
-                HeaderText = "Total Amount",
-                Width = 150,
-                ReadOnly = true
-            };
-            dataGridViewProductOrder.Columns.Add(totalAmountColumn);
-
-            // Tùy chỉnh giao diện
-            dataGridViewProductOrder.AllowUserToResizeColumns = false;
-            dataGridViewProductOrder.AllowUserToResizeRows = false;
-            dataGridViewProductOrder.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-        }
         private void LoadInvoicesByDateRange(DateTime startDate, DateTime endDate)
         {
+            if (startDate > endDate)
+            {
+                MessageBox.Show("Start date cannot be greater than end date.", "Invalid Date Range", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             try
             {
-                // Truy vấn danh sách hóa đơn trong khoảng thời gian
                 var invoices = _dbContext.Invoices
                     .Where(i => i.DeliveryDate >= startDate && i.DeliveryDate <= endDate)
-                    .ToList() // Lấy dữ liệu từ cơ sở dữ liệu
+                    .ToList()
                     .Select((i, index) => new
                     {
                         Index = index + 1,
                         InvoiceNumber = i.InvoiceNo,
-                        DateOrder = i.OrderDate.ToString("yyyy-MM-dd"), // Chuyển đổi sau khi lấy dữ liệu
+                        DateOrder = i.OrderDate.ToString("yyyy-MM-dd"),
                         DateReceived = i.DeliveryDate.ToString("yyyy-MM-dd"),
                         TotalAmount = _dbContext.Orders
                             .Where(o => o.InvoiceNo == i.InvoiceNo)
@@ -99,8 +43,10 @@ namespace Lab04_04
                     })
                     .ToList();
 
-                // Hiển thị dữ liệu
+                // Sử dụng AutoGenerateColumns để tạo cột tự động
+                dataGridViewProductOrder.AutoGenerateColumns = true;
                 dataGridViewProductOrder.DataSource = invoices;
+
                 txtTotal.Text = $"Total: {invoices.Count}";
             }
             catch (Exception ex)
@@ -110,9 +56,11 @@ namespace Lab04_04
         }
         private void frmProductOrder_Load(object sender, EventArgs e)
         {
-            ConfigureDataGridView();
+            // Thiết lập giá trị mặc định cho DateTimePicker
             dateTimePickerDateOrder.Value = DateTime.Now;
             dateTimePickerDateReceived.Value = DateTime.Now;
+
+            // Tải dữ liệu mặc định theo ngày hiện tại
             LoadInvoicesByDateRange(DateTime.Now.Date, DateTime.Now.Date);
         }
 
@@ -122,12 +70,14 @@ namespace Lab04_04
             {
                 if (checkBoxViewAllInMonth.Checked)
                 {
+                    // Lọc dữ liệu theo tháng hiện tại
                     DateTime firstDayOfMonth = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);
                     DateTime lastDayOfMonth = firstDayOfMonth.AddMonths(1).AddDays(-1);
                     LoadInvoicesByDateRange(firstDayOfMonth, lastDayOfMonth);
                 }
                 else
                 {
+                    // Lọc dữ liệu theo khoảng thời gian của DateTimePicker
                     LoadInvoicesByDateRange(dateTimePickerDateOrder.Value.Date, dateTimePickerDateReceived.Value.Date);
                 }
             }
@@ -143,6 +93,7 @@ namespace Lab04_04
             {
                 if (!checkBoxViewAllInMonth.Checked)
                 {
+                    // Lọc dữ liệu theo khoảng thời gian của DateTimePicker
                     LoadInvoicesByDateRange(dateTimePickerDateOrder.Value.Date, dateTimePickerDateReceived.Value.Date);
                 }
             }

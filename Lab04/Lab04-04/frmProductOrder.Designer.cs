@@ -107,7 +107,6 @@
             // 
             // dataGridViewProductOrder
             // 
-            this.dataGridViewProductOrder.AllowUserToAddRows = false;
             this.dataGridViewProductOrder.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewProductOrder.Location = new System.Drawing.Point(17, 162);
             this.dataGridViewProductOrder.Name = "dataGridViewProductOrder";
