@@ -49,3 +49,23 @@ VALUES
 
 SELECT * FROM Faculty;
 SELECT * FROM Major;
+
+-- Thêm tính năng Login
+
+
+-- Tạo bảng Users
+CREATE TABLE Users (
+    UserID INT PRIMARY KEY IDENTITY(1,1),
+    Username NVARCHAR(50) NOT NULL UNIQUE,
+    PasswordHash NVARCHAR(255) NOT NULL,
+    Role NVARCHAR(20) NOT NULL CHECK (Role IN ('Admin', 'User')) -- Phân quyền
+);
+
+-- Thêm tài khoản mẫu
+INSERT INTO Users (Username, PasswordHash, Role)
+VALUES 
+    ('admin', HASHBYTES('SHA2_256', 'admin123'), 'Admin'), -- Tài khoản Admin
+    ('user1', HASHBYTES('SHA2_256', 'user123'), 'User');  -- Tài khoản User
+
+-- Xem dữ liệu bảng Users
+SELECT * FROM Users;
