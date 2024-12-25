@@ -26,6 +26,16 @@ namespace Lab05.BUS
             StudentModel context = new StudentModel();
             return context.Students.Where(p => p.MajorID == null && p.FacultyID == facultyID).ToList();
         }
+        public List<Student> GetAllHasNoMajor(int facultyID, int MajorID)
+        {
+            using (StudentModel context = new StudentModel())
+            {
+                return context.Students
+                              //.Include(s => s.Faculty) // Bao gồm thông tin về Faculty
+                              .Where(s => s.FacultyID == facultyID && (s.MajorID == null || s.MajorID != MajorID))
+                              .ToList();
+            }
+        }
         public void DeleteStudent(string studentId)
         {
             using (StudentModel context = new StudentModel())

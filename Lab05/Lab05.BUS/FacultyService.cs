@@ -53,5 +53,6 @@ namespace Lab05.BUS
                 context.SaveChanges();
             }
         }
+
     }
 }
