@@ -18,7 +18,7 @@ namespace Lab05.GUI
         private readonly StudentService studentService = new StudentService();
         private readonly FacultyService facultyService = new FacultyService();
         private string imageRelativePath;
-        private string imageFileName = "D:\\SourceCode\\VisualStudio\\CSharp\\Programming-on-Windows-Environment-Lab\\Lab05";
+        private string imageFileName = "D:\\SourceCode\\VisualStudio\\CSharp\\Programming-on-Windows-Environment-Lab\\Lab05\\Images";
         public frmStudent()
         {
             InitializeComponent();
@@ -149,6 +149,13 @@ namespace Lab05.GUI
             }
             return -1;
         }
+        private void InsertUpdate(int selectedRow)
+        {
+            dgvStudent.Rows[selectedRow].Cells[0].Value = txtStudentID.Text;
+            dgvStudent.Rows[selectedRow].Cells[1].Value = txtFullName.Text;
+            dgvStudent.Rows[selectedRow].Cells[3].Value = txtAverageScore.Text;
+            dgvStudent.Rows[selectedRow].Cells[2].Value = cmbFaculty.Text;
+        }
         private void LoadData()
         {
             List<Student> students = studentService.GetAll();
@@ -176,8 +183,8 @@ namespace Lab05.GUI
             string studentID = txtStudentID.Text;
             string fullName = txtFullName.Text;
             string averageScoreText = txtAverageScore.Text;
-            Faculty selectedFaculty = cmbFaculty.SelectedItem as Faculty; // Lấy khoa từ ComboBox
-            string imageName = Path.GetFileName(imageRelativePath); // Lấy tên ảnh từ đường dẫn
+            Faculty selectedFaculty = cmbFaculty.SelectedItem as Faculty;
+            string imageName = Path.GetFileName(imageRelativePath);
 
             if (string.IsNullOrEmpty(studentID) || string.IsNullOrEmpty(fullName) || selectedFaculty == null)
             {

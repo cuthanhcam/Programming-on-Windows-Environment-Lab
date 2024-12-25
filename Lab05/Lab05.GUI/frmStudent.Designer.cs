@@ -49,6 +49,11 @@
             this.featuresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registerMajorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.StudentID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FullName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Faculty = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AverageScore = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Major = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudent)).BeginInit();
@@ -201,13 +206,20 @@
             // 
             // dgvStudent
             // 
+            this.dgvStudent.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvStudent.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvStudent.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.StudentID,
+            this.FullName,
+            this.Faculty,
+            this.AverageScore,
+            this.Major});
             this.dgvStudent.Location = new System.Drawing.Point(370, 119);
             this.dgvStudent.Name = "dgvStudent";
             this.dgvStudent.RowHeadersWidth = 51;
             this.dgvStudent.RowTemplate.Height = 24;
             this.dgvStudent.Size = new System.Drawing.Size(680, 400);
-            this.dgvStudent.TabIndex = 2;
+            this.dgvStudent.TabIndex = 7;
             this.dgvStudent.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvStudent_CellClick);
             // 
             // chkNotRegisteredMajor
@@ -228,7 +240,7 @@
             this.featuresToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1062, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1062, 30);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "Features";
             // 
@@ -254,6 +266,36 @@
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
+            // StudentID
+            // 
+            this.StudentID.HeaderText = "Student ID";
+            this.StudentID.MinimumWidth = 6;
+            this.StudentID.Name = "StudentID";
+            // 
+            // FullName
+            // 
+            this.FullName.HeaderText = "Full Name";
+            this.FullName.MinimumWidth = 6;
+            this.FullName.Name = "FullName";
+            // 
+            // Faculty
+            // 
+            this.Faculty.HeaderText = "Faculty";
+            this.Faculty.MinimumWidth = 6;
+            this.Faculty.Name = "Faculty";
+            // 
+            // AverageScore
+            // 
+            this.AverageScore.HeaderText = "Average Score";
+            this.AverageScore.MinimumWidth = 6;
+            this.AverageScore.Name = "AverageScore";
+            // 
+            // Major
+            // 
+            this.Major.HeaderText = "Major";
+            this.Major.MinimumWidth = 6;
+            this.Major.Name = "Major";
             // 
             // frmStudent
             // 
@@ -303,5 +345,10 @@
         private System.Windows.Forms.ToolStripMenuItem featuresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem registerMajorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn StudentID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FullName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Faculty;
+        private System.Windows.Forms.DataGridViewTextBoxColumn AverageScore;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Major;
     }
 }
