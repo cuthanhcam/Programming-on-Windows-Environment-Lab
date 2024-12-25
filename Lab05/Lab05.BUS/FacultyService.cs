@@ -31,6 +31,7 @@ namespace Lab05.BUS
             {
                 // Cập nhật thông tin nếu khoa đã tồn tại
                 existingFaculty.FacultyName = faculty.FacultyName;
+                // Cập nhật các trường khác nếu có...
             }
             else
             {
@@ -38,7 +39,7 @@ namespace Lab05.BUS
                 context.Faculties.Add(faculty);
             }
 
-            context.SaveChanges();
+            context.SaveChanges(); // Lưu thay đổi vào cơ sở dữ liệu
         }
 
         // Xóa Khoa
@@ -49,10 +50,9 @@ namespace Lab05.BUS
 
             if (faculty != null)
             {
-                context.Faculties.Remove(faculty);
-                context.SaveChanges();
+                context.Faculties.Remove(faculty); // Xóa khỏi cơ sở dữ liệu
+                context.SaveChanges(); // Lưu thay đổi
             }
         }
-
     }
 }

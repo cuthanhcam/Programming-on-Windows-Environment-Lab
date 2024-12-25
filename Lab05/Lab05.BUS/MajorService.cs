@@ -9,16 +9,19 @@ namespace Lab05.BUS
 {
     public class MajorService
     {
-        //public List<Major> GetAllByFaculty(int facultyID)
-        //{
-        //    StudentModel context = new StudentModel();
-        //    return context.Majors.Where(p => p.FacultyID == facultyID).ToList();
-        //}
+        public List<Major> GetAll()
+        {
+            using (StudentModel context = new StudentModel())
+            {
+                return context.Majors.ToList();
+            }
+        }
+
         public List<Major> GetAllByFaculty(int facultyID)
         {
-            using (var context = new StudentModel())
+            using (StudentModel context = new StudentModel())
             {
-                return context.Majors.Where(m => m.FacultyID == facultyID).ToList();
+                return context.Majors.Where(p => p.FacultyID == facultyID).ToList();
             }
         }
     }

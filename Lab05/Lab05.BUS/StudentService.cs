@@ -5,6 +5,7 @@ using System.Data.Entity.Migrations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.Entity;
 
 namespace Lab05.BUS
 {
@@ -15,6 +16,7 @@ namespace Lab05.BUS
             StudentModel context = new StudentModel();
             return context.Students.ToList();
         }
+
         public List<Student> GetAllHasNoMajor()
         {
             StudentModel context = new StudentModel();
@@ -31,12 +33,22 @@ namespace Lab05.BUS
             using (StudentModel context = new StudentModel())
             {
                 return context.Students
-                              .Include("Faculty") // Bao gồm thông tin về Faculty
+                              .Include(s => s.Faculty) // Bao gồm thông tin về Faculty
                               .Where(s => s.FacultyID == facultyID && (s.MajorID == null || s.MajorID != MajorID))
                               .ToList();
             }
         }
-
+        public List<Student> GetAllByFaculty(int facultyID)
+        {
+            using (StudentModel context = new StudentModel())
+            {
+                return context.Students
+                    .Where(s => s.FacultyID == facultyID)
+                    .Include(s => s.Faculty) // Tải trước thông tin khoa
+                    .Include(s => s.Major)   // Tải trước thông tin chuyên ngành
+                    .ToList();
+            }
+        }
 
         public void DeleteStudent(string studentId)
         {
@@ -59,6 +71,7 @@ namespace Lab05.BUS
             StudentModel context = new StudentModel();
             return context.Students.FirstOrDefault(p => p.StudentID == studentId);
         }
+
         public void InsertUpdate(Student s)
         {
             StudentModel context = new StudentModel();

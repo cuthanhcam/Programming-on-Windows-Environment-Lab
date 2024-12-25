@@ -27,9 +27,13 @@ namespace Lab05.GUI
             try
             {
                 setGridViewStyle(dgvStudent);
+
                 var listStudents = studentService.GetAll();
                 var listFacultys = facultyService.GetAll();
+                var listMajors = majorService.GetAll(); // Lấy toàn bộ chuyên ngành
+
                 FillFalcultyComboBox(listFacultys);
+                FillMajorComboBox(listMajors); // Đổ dữ liệu vào cmbMajor
                 BindGrid(listStudents);
             }
             catch (Exception ex)
@@ -37,6 +41,7 @@ namespace Lab05.GUI
                 MessageBox.Show(ex.Message);
             }
         }
+
         private void setGridViewStyle(DataGridView dgview)
         {
             dgview.BorderStyle = BorderStyle.None;
@@ -45,51 +50,13 @@ namespace Lab05.GUI
             dgview.BackgroundColor = Color.White;
             dgview.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
         }
+
+        //Hàm binding list dữ liệu khoa vào combobox có tên hiện thị là tên khoa, giá trị là Mã khoa
         private void FillFalcultyComboBox(List<Faculty> listFacultys)
         {
             this.cmbFaculty.DataSource = listFacultys;
             this.cmbFaculty.DisplayMember = "FacultyName";
             this.cmbFaculty.ValueMember = "FacultyID";
-        }
-        private void FillMajorComboBox(List<Major> listMajor)
-        {
-            cmbMajor.DataSource = null; // Xóa binding cũ
-            cmbMajor.Items.Clear();    // Xóa tất cả mục trước đó (nếu có)
-
-            if (listMajor != null && listMajor.Count > 0)
-            {
-                cmbMajor.DataSource = listMajor;
-                cmbMajor.DisplayMember = "Name";
-                cmbMajor.ValueMember = "MajorID";
-            }
-            else
-            {
-                MessageBox.Show("Không có chuyên ngành nào được tìm thấy!");
-            }
-        }
-
-
-        private void BindGrid(List<Student> listStudent)
-        {
-            dgvStudent.Rows.Clear();
-            foreach (var item in listStudent)
-            {
-                int index = dgvStudent.Rows.Add();
-
-                dgvStudent.Rows[index].Cells[1].Value = item.StudentID;
-                dgvStudent.Rows[index].Cells[2].Value = item.FullName;
-                if (item.Faculty != null)
-                {
-                    dgvStudent.Rows[index].Cells[3].Value = item.Faculty.FacultyName;
-                }
-                else
-                {
-                    dgvStudent.Rows[index].Cells[4].Value = "N/A";
-                }
-                dgvStudent.Rows[index].Cells[4].Value = item.AverageScore + "";
-                if (item.MajorID != null)
-                    dgvStudent.Rows[index].Cells[5].Value = item.Major.Name + "";
-            }
         }
         private void cmbFaculty_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -97,39 +64,71 @@ namespace Lab05.GUI
             if (selectedFaculty != null)
             {
                 var listMajor = majorService.GetAllByFaculty(selectedFaculty.FacultyID);
-                FillMajorComboBox(listMajor);
+                FillMajorComboBox(listMajor); // Đổ dữ liệu vào combobox chuyên ngành
 
+                var listStudent = chkNotRegisterMajor.Checked
+                    ? studentService.GetAllHasNoMajor(selectedFaculty.FacultyID)
+                    : studentService.GetAllByFaculty(selectedFaculty.FacultyID);
+                BindGrid(listStudent); // Cập nhật danh sách sinh viên theo khoa
+            }
+        }
+
+        private void BindGrid(List<Student> listStudent)
+        {
+            dgvStudent.Rows.Clear();
+
+            foreach (var item in listStudent)
+            {
+                int index = dgvStudent.Rows.Add();
+                dgvStudent.Rows[index].Cells[0].Value = false; // Checkbox để chọn sinh viên
+                dgvStudent.Rows[index].Cells[1].Value = item.StudentID;
+                dgvStudent.Rows[index].Cells[2].Value = item.FullName;
+                dgvStudent.Rows[index].Cells[3].Value = item.Faculty?.FacultyName ?? "N/A"; // Kiểm tra null
+                dgvStudent.Rows[index].Cells[4].Value = item.AverageScore?.ToString("0.00") ?? "N/A";
+                //dgvStudent.Rows[index].Cells[5].Value = item.Major?.Name ?? "N/A";
+            }
+        }
+
+
+        private void FillMajorComboBox(List<Major> listMajor)
+        {
+            if (listMajor == null || listMajor.Count == 0)
+            {
+                this.cmbMajor.DataSource = null; // Làm trống combobox nếu không có chuyên ngành
+                this.cmbMajor.Items.Clear();
+            }
+            else
+            {
+                this.cmbMajor.DataSource = listMajor;
+                this.cmbMajor.DisplayMember = "Name";
+                this.cmbMajor.ValueMember = "MajorID";
+            }
+        }
+
+        private void chkNotRegisterMajor_CheckedChanged(object sender, EventArgs e)
+        {
+            var listStudent = new List<Student>();
+            if (this.chkNotRegisterMajor.Checked)
+                listStudent = studentService.GetAllHasNoMajor();
+            else
+                listStudent = studentService.GetAll();
+            BindGrid(listStudent);
+        }
+
+        private void cmbMajor_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (!chkNotRegisterMajor.Checked)
+            {
                 if (int.TryParse(cmbFaculty.SelectedValue?.ToString(), out int selectedFacultyID) &&
                     int.TryParse(cmbMajor.SelectedValue?.ToString(), out int selectedMajorID))
                 {
                     var listStudent = studentService.GetAllHasNoMajor(selectedFacultyID, selectedMajorID);
                     BindGrid(listStudent);
                 }
-                else
-                {
-                    var listStudent = studentService.GetAllHasNoMajor(selectedFaculty.FacultyID);
-                    BindGrid(listStudent);
-                }
-
             }
         }
 
 
-        private void cmbMajor_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (cmbFaculty.SelectedValue == null || cmbMajor.SelectedValue == null)
-            {
-                MessageBox.Show("Vui lòng chọn khoa và chuyên ngành hợp lệ.");
-                return;
-            }
-
-            if (int.TryParse(cmbFaculty.SelectedValue.ToString(), out int selectedFacultyID) &&
-                int.TryParse(cmbMajor.SelectedValue.ToString(), out int selectedMajorID))
-            {
-                var listStudent = studentService.GetAllHasNoMajor(selectedFacultyID, selectedMajorID);
-                BindGrid(listStudent);
-            }
-        }
         private void RegisterMajor(string studentID, int majorID)
         {
             using (var context = new StudentModel())
@@ -144,34 +143,19 @@ namespace Lab05.GUI
                 }
             }
         }
-
         private void btnRegister_Click(object sender, EventArgs e)
         {
-            if (cmbMajor.SelectedValue == null || !int.TryParse(cmbMajor.SelectedValue.ToString(), out int selectedMajorID))
-            {
-                MessageBox.Show("Vui lòng chọn chuyên ngành hợp lệ.");
-                return;
-            }
+            var selectedMajorID = (int)cmbMajor.SelectedValue;
 
-            bool hasSelected = false;
             foreach (DataGridViewRow row in dgvStudent.Rows)
             {
-                if (row.Cells[0].Value is bool isChecked && isChecked)
+                if (Convert.ToBoolean(row.Cells[0].Value) == true)
                 {
                     string studentID = row.Cells[1].Value.ToString();
                     RegisterMajor(studentID, selectedMajorID);
-                    hasSelected = true;
                 }
             }
-
-            if (hasSelected)
-            {
-                MessageBox.Show("Đăng ký chuyên ngành thành công!");
-            }
-            else
-            {
-                MessageBox.Show("Vui lòng chọn ít nhất một sinh viên.");
-            }
+            MessageBox.Show("Đăng ký chuyên ngành thành công!");
         }
 
         private void btnClose_Click(object sender, EventArgs e)

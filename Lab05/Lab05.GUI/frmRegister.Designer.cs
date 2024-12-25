@@ -34,13 +34,14 @@
             this.cmbFaculty = new System.Windows.Forms.ComboBox();
             this.cmbMajor = new System.Windows.Forms.ComboBox();
             this.dgvStudent = new System.Windows.Forms.DataGridView();
-            this.btnRegister = new System.Windows.Forms.Button();
-            this.btnClose = new System.Windows.Forms.Button();
             this.colChoose = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.colStudentID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colFullName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colFaculty = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AverageScore = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnRegister = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.chkNotRegisterMajor = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudent)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,7 +50,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(323, 29);
+            this.label1.Location = new System.Drawing.Point(325, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(210, 36);
             this.label1.TabIndex = 0;
@@ -58,7 +59,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(192, 106);
+            this.label2.Location = new System.Drawing.Point(193, 86);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 16);
             this.label2.TabIndex = 1;
@@ -67,7 +68,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(192, 154);
+            this.label3.Location = new System.Drawing.Point(193, 134);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 16);
             this.label3.TabIndex = 2;
@@ -76,7 +77,7 @@
             // cmbFaculty
             // 
             this.cmbFaculty.FormattingEnabled = true;
-            this.cmbFaculty.Location = new System.Drawing.Point(278, 103);
+            this.cmbFaculty.Location = new System.Drawing.Point(279, 83);
             this.cmbFaculty.Name = "cmbFaculty";
             this.cmbFaculty.Size = new System.Drawing.Size(314, 24);
             this.cmbFaculty.TabIndex = 3;
@@ -85,7 +86,7 @@
             // cmbMajor
             // 
             this.cmbMajor.FormattingEnabled = true;
-            this.cmbMajor.Location = new System.Drawing.Point(278, 151);
+            this.cmbMajor.Location = new System.Drawing.Point(279, 131);
             this.cmbMajor.Name = "cmbMajor";
             this.cmbMajor.Size = new System.Drawing.Size(314, 24);
             this.cmbMajor.TabIndex = 4;
@@ -102,32 +103,12 @@
             this.colFullName,
             this.colFaculty,
             this.AverageScore});
-            this.dgvStudent.Location = new System.Drawing.Point(12, 193);
+            this.dgvStudent.Location = new System.Drawing.Point(12, 198);
             this.dgvStudent.Name = "dgvStudent";
             this.dgvStudent.RowHeadersWidth = 51;
             this.dgvStudent.RowTemplate.Height = 24;
             this.dgvStudent.Size = new System.Drawing.Size(850, 300);
             this.dgvStudent.TabIndex = 5;
-            // 
-            // btnRegister
-            // 
-            this.btnRegister.Location = new System.Drawing.Point(12, 516);
-            this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(75, 25);
-            this.btnRegister.TabIndex = 6;
-            this.btnRegister.Text = "Register";
-            this.btnRegister.UseVisualStyleBackColor = true;
-            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
-            // 
-            // btnClose
-            // 
-            this.btnClose.Location = new System.Drawing.Point(787, 516);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(75, 25);
-            this.btnClose.TabIndex = 7;
-            this.btnClose.Text = "Close";
-            this.btnClose.UseVisualStyleBackColor = true;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // colChoose
             // 
@@ -169,11 +150,42 @@
             this.AverageScore.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.AverageScore.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
+            // btnRegister
+            // 
+            this.btnRegister.Location = new System.Drawing.Point(695, 516);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(75, 25);
+            this.btnRegister.TabIndex = 6;
+            this.btnRegister.Text = "Register";
+            this.btnRegister.UseVisualStyleBackColor = true;
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
+            // 
+            // btnClose
+            // 
+            this.btnClose.Location = new System.Drawing.Point(787, 516);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(75, 25);
+            this.btnClose.TabIndex = 7;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // chkNotRegisterMajor
+            // 
+            this.chkNotRegisterMajor.AutoSize = true;
+            this.chkNotRegisterMajor.Location = new System.Drawing.Point(13, 172);
+            this.chkNotRegisterMajor.Name = "chkNotRegisterMajor";
+            this.chkNotRegisterMajor.Size = new System.Drawing.Size(141, 20);
+            this.chkNotRegisterMajor.TabIndex = 8;
+            this.chkNotRegisterMajor.Text = "Not Register Major";
+            this.chkNotRegisterMajor.UseVisualStyleBackColor = true;
+            // 
             // frmRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(882, 553);
+            this.Controls.Add(this.chkNotRegisterMajor);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.dgvStudent);
@@ -206,5 +218,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colFullName;
         private System.Windows.Forms.DataGridViewTextBoxColumn colFaculty;
         private System.Windows.Forms.DataGridViewTextBoxColumn AverageScore;
+        private System.Windows.Forms.CheckBox chkNotRegisterMajor;
     }
 }
