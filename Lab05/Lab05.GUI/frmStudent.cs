@@ -19,9 +19,12 @@ namespace Lab05.GUI
         private readonly FacultyService facultyService = new FacultyService();
         private string imageRelativePath;
         private string imageFileName = "D:\\SourceCode\\VisualStudio\\CSharp\\Programming-on-Windows-Environment-Lab\\Lab05\\Images";
-        public frmStudent()
+        private readonly string userRole;
+
+        public frmStudent(string role)
         {
             InitializeComponent();
+            userRole = role;
         }
 
         private void frmStudent_Load(object sender, EventArgs e)
@@ -33,6 +36,14 @@ namespace Lab05.GUI
                 var listStudents = studentService.GetAll();
                 FillFacultyComboBox(listFacultys);
                 BindGrid(listStudents);
+
+                // Phân quyền dựa trên vai trò
+                if (userRole == "User")
+                {
+                    btnAddUpdate.Enabled = false;  // Không cho phép thêm/cập nhật
+                    btnDelete.Enabled = false;    // Không cho phép xóa
+                    btnAddPicture.Enabled = false; // Không cho phép thay đổi avatar
+                }
             }
             catch (Exception ex)
             {
@@ -173,13 +184,18 @@ namespace Lab05.GUI
 
         private void registerMajorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmRegister frmRegister = new frmRegister();
+            frmRegister frmRegister = new frmRegister(userRole);
             frmRegister.ShowDialog();
             LoadData();
         }
 
         private void btnAddUpdate_Click(object sender, EventArgs e)
         {
+            if (userRole == "User")
+            {
+                MessageBox.Show("Bạn không có quyền thực hiện thao tác này!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             string studentID = txtStudentID.Text;
             string fullName = txtFullName.Text;
             string averageScoreText = txtAverageScore.Text;
@@ -246,6 +262,11 @@ namespace Lab05.GUI
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
+            if (userRole == "User")
+            {
+                MessageBox.Show("Bạn không có quyền thực hiện thao tác này!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             if (dgvStudent.SelectedRows.Count > 0)
             {
                 int row = GetSelectedRow(txtStudentID.Text);

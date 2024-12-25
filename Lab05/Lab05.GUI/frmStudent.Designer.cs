@@ -272,7 +272,7 @@
             this.featuresToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1062, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1062, 28);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "Features";
             // 
@@ -282,7 +282,7 @@
             this.registerMajorToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.featuresToolStripMenuItem.Name = "featuresToolStripMenuItem";
-            this.featuresToolStripMenuItem.Size = new System.Drawing.Size(78, 26);
+            this.featuresToolStripMenuItem.Size = new System.Drawing.Size(78, 24);
             this.featuresToolStripMenuItem.Text = "Features";
             // 
             // registerMajorToolStripMenuItem

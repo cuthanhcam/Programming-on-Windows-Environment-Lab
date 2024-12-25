@@ -52,6 +52,7 @@ SELECT * FROM Major;
 
 -- Thêm tính năng Login
 
+DELETE FROM Users;
 
 -- Tạo bảng Users
 CREATE TABLE Users (
@@ -61,11 +62,16 @@ CREATE TABLE Users (
     Role NVARCHAR(20) NOT NULL CHECK (Role IN ('Admin', 'User')) -- Phân quyền
 );
 
--- Thêm tài khoản mẫu
+-- Thêm tài khoản mẫu có mã hóa
 INSERT INTO Users (Username, PasswordHash, Role)
 VALUES 
     ('admin', HASHBYTES('SHA2_256', 'admin123'), 'Admin'), -- Tài khoản Admin
     ('user1', HASHBYTES('SHA2_256', 'user123'), 'User');  -- Tài khoản User
 
+-- Thêm tài khoản mẫu dạng plaintext
+INSERT INTO Users (Username, PasswordHash, Role)
+VALUES 
+    ('admin', 'admin123', 'Admin'), -- Tài khoản Admin
+    ('user1', 'user123', 'User');  -- Tài khoản User
 -- Xem dữ liệu bảng Users
 SELECT * FROM Users;

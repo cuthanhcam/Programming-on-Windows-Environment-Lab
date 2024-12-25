@@ -17,9 +17,11 @@ namespace Lab05.GUI
         private readonly StudentService studentService = new StudentService();
         private readonly FacultyService facultyService = new FacultyService();
         private readonly MajorService majorService = new MajorService();
-        public frmRegister()
+        private readonly string userRole;
+        public frmRegister(string userRole)
         {
             InitializeComponent();
+            this.userRole = userRole;
         }
 
         private void frmRegister_Load(object sender, EventArgs e)
@@ -35,6 +37,13 @@ namespace Lab05.GUI
                 FillFalcultyComboBox(listFacultys);
                 FillMajorComboBox(listMajors); // Đổ dữ liệu vào cmbMajor
                 BindGrid(listStudents);
+
+                // Phân quyền
+                if (userRole == "User")
+                {
+                    btnRegister.Enabled = false; // User không được phép đăng ký chuyên ngành
+                    dgvStudent.ReadOnly = true;  // Không cho phép chỉnh sửa trong bảng
+                }
             }
             catch (Exception ex)
             {
@@ -85,7 +94,6 @@ namespace Lab05.GUI
                 dgvStudent.Rows[index].Cells[2].Value = item.FullName;
                 dgvStudent.Rows[index].Cells[3].Value = item.Faculty?.FacultyName ?? "N/A"; // Kiểm tra null
                 dgvStudent.Rows[index].Cells[4].Value = item.AverageScore?.ToString("0.00") ?? "N/A";
-                //dgvStudent.Rows[index].Cells[5].Value = item.Major?.Name ?? "N/A";
             }
         }
 
@@ -145,6 +153,12 @@ namespace Lab05.GUI
         }
         private void btnRegister_Click(object sender, EventArgs e)
         {
+            if (userRole == "User")
+            {
+                MessageBox.Show("Bạn không có quyền thực hiện thao tác này!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             var selectedMajorID = (int)cmbMajor.SelectedValue;
 
             foreach (DataGridViewRow row in dgvStudent.Rows)
@@ -164,5 +178,6 @@ namespace Lab05.GUI
                 return;
             this.Close();
         }
+
     }
 }

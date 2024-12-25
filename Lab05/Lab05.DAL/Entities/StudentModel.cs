@@ -15,6 +15,7 @@ namespace Lab05.DAL.Entities
         public virtual DbSet<Faculty> Faculties { get; set; }
         public virtual DbSet<Major> Majors { get; set; }
         public virtual DbSet<Student> Students { get; set; }
+        public virtual DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

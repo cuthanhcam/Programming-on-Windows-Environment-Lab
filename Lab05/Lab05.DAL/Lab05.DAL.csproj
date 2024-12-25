@@ -57,6 +57,7 @@
     <Compile Include="Entities\Major.cs" />
     <Compile Include="Entities\Student.cs" />
     <Compile Include="Entities\StudentModel.cs" />
+    <Compile Include="Entities\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

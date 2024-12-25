@@ -16,7 +16,7 @@ namespace Lab05.GUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmStudent());
+            Application.Run(new frmLogin());
         }
     }
 }

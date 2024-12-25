@@ -20,3 +20,4 @@ D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab05\L
 D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab05\Lab05.GUI\obj\Debug\Lab05.GUI.exe
 D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab05\Lab05.GUI\obj\Debug\Lab05.GUI.pdb
 D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab05\Lab05.GUI\obj\Debug\Lab05.GUI.frmRegister.resources
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\Lab05\Lab05.GUI\obj\Debug\Lab05.GUI.frmLogin.resources
