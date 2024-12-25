@@ -44,16 +44,16 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dgvStudent = new System.Windows.Forms.DataGridView();
-            this.chkNotRegisteredMajor = new System.Windows.Forms.CheckBox();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.featuresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.registerMajorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.StudentID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FullName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Faculty = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AverageScore = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Major = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.chkNotRegisteredMajor = new System.Windows.Forms.CheckBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.featuresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.registerMajorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudent)).BeginInit();
@@ -63,10 +63,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label1.Location = new System.Drawing.Point(306, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(375, 42);
+            this.label1.Size = new System.Drawing.Size(408, 48);
             this.label1.TabIndex = 0;
             this.label1.Text = "Student Management";
             // 
@@ -127,6 +128,7 @@
             this.picAvatar.Location = new System.Drawing.Point(124, 211);
             this.picAvatar.Name = "picAvatar";
             this.picAvatar.Size = new System.Drawing.Size(160, 125);
+            this.picAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picAvatar.TabIndex = 9;
             this.picAvatar.TabStop = false;
             // 
@@ -222,51 +224,6 @@
             this.dgvStudent.TabIndex = 7;
             this.dgvStudent.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvStudent_CellClick);
             // 
-            // chkNotRegisteredMajor
-            // 
-            this.chkNotRegisteredMajor.AutoSize = true;
-            this.chkNotRegisteredMajor.Location = new System.Drawing.Point(893, 93);
-            this.chkNotRegisteredMajor.Name = "chkNotRegisteredMajor";
-            this.chkNotRegisteredMajor.Size = new System.Drawing.Size(157, 20);
-            this.chkNotRegisteredMajor.TabIndex = 3;
-            this.chkNotRegisteredMajor.Text = "Not Registered Major";
-            this.chkNotRegisteredMajor.UseVisualStyleBackColor = true;
-            this.chkNotRegisteredMajor.CheckedChanged += new System.EventHandler(this.chkNotRegisteredMajor_CheckedChanged);
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.featuresToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1062, 30);
-            this.menuStrip1.TabIndex = 4;
-            this.menuStrip1.Text = "Features";
-            // 
-            // featuresToolStripMenuItem
-            // 
-            this.featuresToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.registerMajorToolStripMenuItem,
-            this.exitToolStripMenuItem});
-            this.featuresToolStripMenuItem.Name = "featuresToolStripMenuItem";
-            this.featuresToolStripMenuItem.Size = new System.Drawing.Size(78, 24);
-            this.featuresToolStripMenuItem.Text = "Features";
-            // 
-            // registerMajorToolStripMenuItem
-            // 
-            this.registerMajorToolStripMenuItem.Name = "registerMajorToolStripMenuItem";
-            this.registerMajorToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
-            this.registerMajorToolStripMenuItem.Text = "Register Major";
-            this.registerMajorToolStripMenuItem.Click += new System.EventHandler(this.registerMajorToolStripMenuItem_Click);
-            // 
-            // exitToolStripMenuItem
-            // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
-            this.exitToolStripMenuItem.Text = "Exit";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
-            // 
             // StudentID
             // 
             this.StudentID.HeaderText = "Student ID";
@@ -296,6 +253,51 @@
             this.Major.HeaderText = "Major";
             this.Major.MinimumWidth = 6;
             this.Major.Name = "Major";
+            // 
+            // chkNotRegisteredMajor
+            // 
+            this.chkNotRegisteredMajor.AutoSize = true;
+            this.chkNotRegisteredMajor.Location = new System.Drawing.Point(893, 93);
+            this.chkNotRegisteredMajor.Name = "chkNotRegisteredMajor";
+            this.chkNotRegisteredMajor.Size = new System.Drawing.Size(157, 20);
+            this.chkNotRegisteredMajor.TabIndex = 3;
+            this.chkNotRegisteredMajor.Text = "Not Registered Major";
+            this.chkNotRegisteredMajor.UseVisualStyleBackColor = true;
+            this.chkNotRegisteredMajor.CheckedChanged += new System.EventHandler(this.chkNotRegisteredMajor_CheckedChanged);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.featuresToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1062, 30);
+            this.menuStrip1.TabIndex = 4;
+            this.menuStrip1.Text = "Features";
+            // 
+            // featuresToolStripMenuItem
+            // 
+            this.featuresToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.registerMajorToolStripMenuItem,
+            this.exitToolStripMenuItem});
+            this.featuresToolStripMenuItem.Name = "featuresToolStripMenuItem";
+            this.featuresToolStripMenuItem.Size = new System.Drawing.Size(78, 26);
+            this.featuresToolStripMenuItem.Text = "Features";
+            // 
+            // registerMajorToolStripMenuItem
+            // 
+            this.registerMajorToolStripMenuItem.Name = "registerMajorToolStripMenuItem";
+            this.registerMajorToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
+            this.registerMajorToolStripMenuItem.Text = "Register Major";
+            this.registerMajorToolStripMenuItem.Click += new System.EventHandler(this.registerMajorToolStripMenuItem_Click);
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
+            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // frmStudent
             // 

@@ -47,8 +47,7 @@ namespace Lab05.GUI
             this.cmbFaculty.DisplayMember = "FacultyName";
             this.cmbFaculty.ValueMember = "FacultyID";
         }
-
-        //Hàm binding gridView từ list sinh viên                   
+               
         private void BindGrid(List<Student> listStudent)
         {
             dgvStudent.Rows.Clear();
@@ -176,6 +175,7 @@ namespace Lab05.GUI
         {
             frmRegister frmRegister = new frmRegister();
             frmRegister.ShowDialog();
+            LoadData();
         }
 
         private void btnAddUpdate_Click(object sender, EventArgs e)
