@@ -1,0 +1,76 @@
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\bin\Debug\MemoryGame.exe.config
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\bin\Debug\MemoryGame.exe
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\bin\Debug\MemoryGame.pdb
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\bin\Debug\EntityFramework.dll
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\bin\Debug\System.Buffers.dll
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\bin\Debug\System.Memory.dll
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\bin\Debug\EntityFramework.xml
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\bin\Debug\System.Buffers.xml
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\bin\Debug\System.Memory.xml
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.AssemblyReference.cache
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\obj\Debug\MemoryGame.LoginRegisterForm.resources
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\obj\Debug\MemoryGame.Properties.Resources.resources
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.GenerateResource.cache
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.Up2Date
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\obj\Debug\MemoryGame.exe
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\obj\Debug\MemoryGame.pdb
+C:\Users\Acer\Downloads\dh\ltwin\MemoryGame\MemoryGame\obj\Debug\MemoryGame.GameForm.resources
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\bin\Debug\MemoryGame.exe.config
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\bin\Debug\MemoryGame.exe
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\bin\Debug\MemoryGame.pdb
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\bin\Debug\BCrypt.Net-Next.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\bin\Debug\EntityFramework.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\bin\Debug\EntityFramework.SqlServer.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\bin\Debug\System.Buffers.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\bin\Debug\System.Memory.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\bin\Debug\System.Numerics.Vectors.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\bin\Debug\BCrypt.Net-Next.xml
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\bin\Debug\EntityFramework.xml
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\bin\Debug\EntityFramework.SqlServer.xml
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\bin\Debug\System.Buffers.xml
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\bin\Debug\System.Memory.xml
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\bin\Debug\System.Numerics.Vectors.xml
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.AssemblyReference.cache
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\obj\Debug\MemoryGame.GameForm.resources
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\obj\Debug\MemoryGame.LoginRegisterForm.resources
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\obj\Debug\MemoryGame.Properties.Resources.resources
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.GenerateResource.cache
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.CoreCompileInputs.cache
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.Up2Date
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\obj\Debug\MemoryGame.exe
+D:\22DTHD4\Học kì 7\TH_LT_Windows\MemoryGame\MemoryGame\obj\Debug\MemoryGame.pdb
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.AssemblyReference.cache
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\obj\Debug\MemoryGame.frmLoginRegister.resources
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\obj\Debug\MemoryGame.Properties.Resources.resources
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.GenerateResource.cache
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.CoreCompileInputs.cache
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\obj\Debug\MemoryGame.exe
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\obj\Debug\MemoryGame.pdb
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\bin\Debug\MemoryGame.exe.config
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\bin\Debug\MemoryGame.exe
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\bin\Debug\MemoryGame.pdb
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\bin\Debug\EntityFramework.dll
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\bin\Debug\EntityFramework.SqlServer.dll
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\bin\Debug\System.Buffers.dll
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\bin\Debug\System.Memory.dll
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\bin\Debug\System.Numerics.Vectors.dll
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\bin\Debug\EntityFramework.xml
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\bin\Debug\EntityFramework.SqlServer.xml
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\bin\Debug\System.Buffers.xml
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\bin\Debug\System.Memory.xml
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\bin\Debug\System.Numerics.Vectors.xml
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.Up2Date
+D:\SourceCode\VisualStudio\CSharp\Programming-on-Windows-Environment-Lab\MemoryGame\MemoryGame\obj\Debug\MemoryGame.frmMain.resources
