@@ -1,0 +1,136 @@
+D:\Lab\Lab06\Lab06\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\Lab\Lab06\Lab06\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\Lab\Lab06\Lab06\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\Lab\Lab06\Lab06\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\Lab\Lab06\Lab06\bin\Debug\Lab06.exe.config
+D:\Lab\Lab06\Lab06\bin\Debug\Lab06.exe
+D:\Lab\Lab06\Lab06\bin\Debug\Lab06.pdb
+D:\Lab\Lab06\Lab06\bin\Debug\EntityFramework.dll
+D:\Lab\Lab06\Lab06\bin\Debug\EntityFramework.SqlServer.dll
+D:\Lab\Lab06\Lab06\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Lab\Lab06\Lab06\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Lab\Lab06\Lab06\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\Lab\Lab06\Lab06\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Lab\Lab06\Lab06\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Lab\Lab06\Lab06\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Lab\Lab06\Lab06\bin\Debug\EnvDTE.dll
+D:\Lab\Lab06\Lab06\bin\Debug\stdole.dll
+D:\Lab\Lab06\Lab06\bin\Debug\EntityFramework.xml
+D:\Lab\Lab06\Lab06\bin\Debug\EntityFramework.SqlServer.xml
+D:\Lab\Lab06\Lab06\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lab\Lab06\Lab06\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lab\Lab06\Lab06\obj\Debug\Lab06.csproj.AssemblyReference.cache
+D:\Lab\Lab06\Lab06\obj\Debug\Lab06.Form1.resources
+D:\Lab\Lab06\Lab06\obj\Debug\Lab06.Properties.Resources.resources
+D:\Lab\Lab06\Lab06\obj\Debug\Lab06.csproj.GenerateResource.cache
+D:\Lab\Lab06\Lab06\obj\Debug\Lab06.csproj.CoreCompileInputs.cache
+D:\Lab\Lab06\Lab06\obj\Debug\Lab06.csproj.Up2Date
+D:\Lab\Lab06\Lab06\obj\Debug\Lab06.exe
+D:\Lab\Lab06\Lab06\obj\Debug\Lab06.pdb
+D:\Lab\Lab06\Lab06\obj\Debug\Lab06.Report.resources
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\Lab06.exe.config
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\Lab06.exe
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\Lab06.pdb
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\EntityFramework.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\EntityFramework.SqlServer.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\EnvDTE.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\stdole.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\EntityFramework.xml
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\EntityFramework.SqlServer.xml
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\obj\Debug\Lab06.csproj.AssemblyReference.cache
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\obj\Debug\Lab06.Form1.resources
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\obj\Debug\Lab06.Properties.Resources.resources
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\obj\Debug\Lab06.Report.resources
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\obj\Debug\Lab06.csproj.GenerateResource.cache
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\obj\Debug\Lab06.csproj.CoreCompileInputs.cache
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\obj\Debug\Lab06.csproj.Up2Date
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\obj\Debug\Lab06.exe
+D:\22DTHD4\Học kì 7\TH_LT_Windows\Lab06\Lab06\obj\Debug\Lab06.pdb
